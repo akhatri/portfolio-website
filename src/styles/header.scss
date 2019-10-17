@@ -15,7 +15,6 @@
   width: 100%;
   background-color: whitesmoke;
   border-bottom: 1px solid #bebebe;
-  //box-shadow: 1px 1px #bebebe;
   display: flex;
   align-items: center;
   height: 10rem;
@@ -42,7 +41,9 @@
       text-transform: uppercase;
       transition: all 3s ease-in-out;
       color: $black-olive;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
       &:after {
         content: "";
         display: block;

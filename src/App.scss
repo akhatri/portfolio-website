@@ -1,5 +1,4 @@
 // import fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
 // Variables and Mixins
@@ -7,26 +6,36 @@
 @import './styles/variables.scss';
 
 // Resets
+//--------
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+
+// Base
+//-------
+
 html {
   font-size: 10px;
+  @include breakpoint (sm-down) {
+    font-size: 8px;
+  }
 }
 body {
   font-size: 1.6rem;
-  //font-family: 'Montserrat', sans-serif;
   font-family: 'Nunito', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Typography
+//------------
+
 h1, h2, h3 {
-  //font-family: 'Poppins', sans-serif;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
 }
@@ -56,14 +65,9 @@ p, span {
   margin-bottom: 1rem;
 }
 
+// Grid System
+//-------------
 
-
-// section {
-//   height: 100vh;
-//   background-color: $rose-quartz;
-// }
-
-// Grid
 .container {
   max-width: 85%;
   margin-left: auto;
@@ -115,6 +119,9 @@ p, span {
   }  
 }
 
+// Padding and Margins
+//---------------------
+
 .my {
   &-1 {
     margin-top: 1rem;
@@ -162,6 +169,8 @@ p, span {
 }
 
 // Helper classes
+//----------------
+
 .text-center {
   text-align: center !important;
 }

@@ -9,7 +9,7 @@ const SocialLinks = (props) => {
         props.socialData ? props.socialData.map( (item, index)=>
         <li key={index}>
           <a href={item.link} target="_blank" rel="noopener noreferrer">
-           <i className={`${item.icon} icon`}></i>
+           <i aria-hidden="true" className={`${item.icon} icon`}></i>
           </a>
         </li>
         ) : ''
