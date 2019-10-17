@@ -9,7 +9,7 @@ const PortfolioPanel = (props) => {
   return (
     <div className={`${themeClass} portfolio grid-wrapper col-2 align-center grid-gap-4 my-3`}>
       <div className="media">
-        <img alt={`${company}-image`} className="img-fluid media__image" src={image} />
+        <img alt={`${company}-image`} className="img-fluid rounded media__image" src={image} />
       </div>
       <div className="content">
         <h2 className="content__title">{name}</h2>
