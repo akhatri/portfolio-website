@@ -1,0 +1,104 @@
+
+
+
+// Breakpoint variables
+$screen-xxs-min: 320px !default;
+$screen-xxs-max: 359px !default;
+$screen-xs-min: 360px !default;
+$screen-xs-max: 543px !default;
+$screen-sm-min: 544px !default;
+$screen-sm-max: 767px !default;
+$screen-md-min: 768px !default;
+$screen-md-max: 991px !default;
+$screen-lg-min: 992px !default;
+$screen-lg-max: 1199px !default;
+$screen-xlg-min: 1200px !default;
+$screen-xlg-max: 1399px !default;
+$screen-xxlg-min: 1400px !default;
+
+// Mixins
+
+// mobile first responsive breakpoints
+@mixin breakpoint($width) {
+  @if $width == xxs-max {  // breakpoint for very small screens. ie, <= iphone5.
+    @media (max-width:$screen-xxs-max) { @content; }
+  }
+  @if $width == xxs-contain {  // only target extra small mobile
+    @media (min-width: $screen-xxs-min) and (max-width:$screen-xxs-max) { @content; }
+  }
+  @else if $width == xs-up { // mobile and up
+      @media (min-width: $screen-xs-min)  { @content; }
+  }
+  @else if $width == xs-down { // mobile and down
+      @media (max-width: $screen-xs-max)  { @content; }
+  }
+  @else if $width == xs-contain { // only target mobile
+      @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) { @content; }
+  }
+  @else if $width == xs-contain-landscape { // only target landscape mobile hide website elements if required
+      @media only screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) { @content; }
+  }
+  @else if $width == sm-up { // small devices and up e.g. phablets and large phones
+      @media (min-width: $screen-sm-min) { @content; }
+  }
+  @else if $width == sm-down { // small devices and down e.g. phablets and large phones
+      @media (max-width: $screen-sm-max) { @content; }
+  }
+  @else if $width == sm-contain { // Only target small devices
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { @content; }
+  }
+  @else if $width == md-up { // medium devices and up e.g. tablets
+      @media (min-width: $screen-md-min) { @content; }
+  }
+  @else if $width == md-down { // medium devices and down e.g. tablets
+      @media (max-width: $screen-md-max) { @content; }
+  }
+  @else if $width == md-contain { // Only target medium devices
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) { @content; }
+  }
+  @else if $width == lg-up { // large desktop and up e.g. desktops
+      @media (min-width: $screen-lg-min) { @content; }
+  }
+  @else if $width == lg-down { // large desktop and down e.g. desktops
+      @media (max-width: $screen-lg-max) { @content; }
+  }
+  @else if $width == lg-contain { // Only target large devices
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) { @content; }
+  }
+  @else if $width == xlg-up { // extra large devices and up e.g. large desktops and screens
+    @media (min-width: $screen-xlg-min) { @content; }
+  }
+  @else if $width == xlg-down { // extra large devices and down e.g. large desktops and screens
+      @media (max-width: $screen-xlg-max) { @content; }
+  }
+  @else if $width == xlg-contain { // Only target extra large devices
+      @media (min-width: $screen-xlg-min) and (max-width: $screen-xlg-max) { @content; }
+    }
+  @else if $width == xxlg-up { // widescreen devices and up e.g. very large desktops and screens
+      @media (min-width: $screen-xxlg-min) { @content; }
+    }
+  // Device hacks.
+  @else if $width == iPhone5 {  // iPhone5
+      @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+      @content;
+      }
+  }
+  @else if $width == iPhone5-landscape {  // iPhone5
+      @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+      @content;
+      }
+  }
+  @else if $width == s4 {  // S4.
+    @media (min-width: 360px) and (max-width:361px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){ @content; }
+  }
+  @else if $width == iPad-portrait { // specific ipad portrait
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; }
+  }
+  @else if $width == iPad-landscape { // specifc ipad landscape
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; }
+  }
+
+  @else if $width { // allows custom breakpoints by entering a custom pixel width e.g. 1234px
+      @media (min-width: $width) { @content; }
+  }
+}

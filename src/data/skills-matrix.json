@@ -1,0 +1,88 @@
+[
+  {
+    "themeClass": "front-end",
+    "icon": "fa-tools",
+    "name": "Front-end",
+    "skills": [
+      "Semantic HTML5",
+      "CSS3 & SCSS",
+      "jQuery",
+      "ES6+ Javascript",
+      "Typescript",
+      "Angular 2+",
+      "React.js (Beginner)",
+      "Vue.js (Basic)",
+      "Node.js (Basic)",
+      "Serverless architecture"
+    ]
+  },
+  {
+    "themeClass": "back-end",
+    "icon": "fa-database",
+    "name": "Back-end (Beginner)",
+    "skills": [
+      "Java",
+      "PHP",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "AWS",
+      "Google Cloud"
+    ]
+  },
+  {
+    "themeClass": "cms",
+    "icon": "fa-file-alt",
+    "name": "Content Management Systems",
+    "skills": [
+      "Wordpress",
+      "Sitecore",
+      "Magento"
+    ]
+  },
+  {
+    "themeClass": "frameworks-tools",
+    "icon": "fa-terminal",
+    "name": "Frameworks, Build Tools & Softwares",
+    "skills": [
+      "Bootstrap 4 & Bulma",
+      "Ionic 4",
+      "Webpack & Gulp",
+      "NPM / Yarn",
+      "Codeship CI",
+      "VS App Center",
+      "Progressive Web Apps",
+      "Git",
+      "VS Code",
+      "Figma (Basic)",
+      "UXPin",
+      "Photoshop (Basic)"
+    ]
+  },
+  {
+    "themeClass": "best-practice",
+    "icon": "fa-tasks",
+    "name": "Best Practices",
+    "skills": [
+      "SEO",
+      "Web Performance",
+      "Accessibility",
+      "Unit Testing / TDD (Basic)",
+      "Mobile First Design"
+    ]
+  },
+  {
+    "themeClass": "business-acumen",
+    "icon": "fa-briefcase",
+    "name": "Business Acumen",
+    "skills": [
+      "Agile",
+      "Scrum",
+      "JIRA / Trello",
+      "Product Development",
+      "Stakeholder Relationships",
+      "UX Principles",
+      "Product Pitching & Presentations"
+    ]
+  }
+]

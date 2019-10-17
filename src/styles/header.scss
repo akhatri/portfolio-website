@@ -1,0 +1,63 @@
+@import './variables.scss';
+
+@keyframes showSticky {
+  from {
+    transform: translate3d(0,-30px,0);
+  }
+  to {
+    transform: translate3d(0,0,0);
+  }
+}  
+
+.site-header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: whitesmoke;
+  border-bottom: 1px solid #bebebe;
+  //box-shadow: 1px 1px #bebebe;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  padding: 4rem 2rem;
+  justify-content: flex-end;
+  transition: all .5s ease-in-out;
+  z-index: 9999;
+  &.sticky {
+    position: fixed;
+    animation: showSticky 600ms ease backwards;
+  }
+
+  .navigation {
+    &__list {
+      list-style-type: none;
+      display: inline-flex;
+    }
+    &__list-item {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    &__link {
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 3s ease-in-out;
+      color: $black-olive;
+      font-family: 'Poppins', sans-serif;
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background: $blood-red;
+        -webkit-transition: width .3s;
+        transition: width .3s;        
+      }
+      &:hover {
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+}

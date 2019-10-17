@@ -1,0 +1,100 @@
+.portfolio {
+  --color: #E43D40;
+
+  // Theme variants
+  &.australian-institute-architects {
+    --color: #0db14b;
+  }
+
+  &.firststep {
+    --color: #6a33fa;
+  }
+
+  &.ie-digital-apt-tm {
+    --color: #a19261;
+  }
+
+  &.ie-digital-movember {
+    --color: #000;
+  }   
+
+  // Portfolio media
+  .media {
+    &__image {
+      height: 600px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+
+  // Portfolio content
+  .content {
+    text-align: left;
+    &__title {
+      display: inline-block;
+      position: relative;
+      text-transform: uppercase;
+      padding-left: 2rem;
+      margin-bottom: 2rem;
+      &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        background-color: var(--color);
+        width: 5px;
+        height: 100%;
+      }
+    }
+    &__company {
+      color: var(--color);
+    }
+
+    &__info {
+      margin: 2rem 0;
+      font-size: 1.6rem;
+    }
+
+    &__cta {
+      display: inline-block;
+      border: 2px solid var(--color);
+      margin-right: 1rem;
+      color: var(--color);
+      margin-bottom: 4rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 1rem 3rem;
+      border-radius: 25px;
+      transition: all .3s ease-in-out;
+      &:hover {
+        color: #fff;
+        background-color: var(--color);
+      }
+      &.tm-theme {
+        border: 2px solid #ef7700;
+        color: #ef7700;
+        &:hover {
+          background-color: #ef7700;
+          color: #fff;
+        }
+      }
+    }
+
+    &__tags {
+      list-style-type: none;
+      > li {
+        display: inline-block;
+        background-color: var(--color);
+        font-size: 1.4rem;
+        color: #fff;
+        padding: .5rem 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+ 
+
+}

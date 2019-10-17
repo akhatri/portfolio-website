@@ -1,0 +1,18 @@
+.social-links {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  > li {
+    display: inline;
+    margin-right: 2rem;
+    .icon {
+      font-size: 4rem;
+      color: #E43D40;
+      transition: all .3s ease-in-out;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
