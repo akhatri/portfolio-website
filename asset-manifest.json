@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.b100e6da.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.e8e0ae3c.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.e8e0ae3c.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.c193c649.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.b9b3c68b.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.b9b3c68b.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.ca2f475b.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.ca2f475b.js.map",
-    "static/js/2.d2137079.chunk.js": "/portfolio-website/static/js/2.d2137079.chunk.js",
-    "static/js/2.d2137079.chunk.js.map": "/portfolio-website/static/js/2.d2137079.chunk.js.map",
+    "static/css/2.dc76a9b4.chunk.css": "/portfolio-website/static/css/2.dc76a9b4.chunk.css",
+    "static/js/2.213a859c.chunk.js": "/portfolio-website/static/js/2.213a859c.chunk.js",
+    "static/js/2.213a859c.chunk.js.map": "/portfolio-website/static/js/2.213a859c.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.fd63fe86673661ca65eb83ec26583216.js": "/portfolio-website/precache-manifest.fd63fe86673661ca65eb83ec26583216.js",
+    "precache-manifest.41813c5c22e2498b84e6b62d8216a0ef.js": "/portfolio-website/precache-manifest.41813c5c22e2498b84e6b62d8216a0ef.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/portfolio-website/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/portfolio-website/static/media/logo.25bf045c.svg"
+    "static/css/2.dc76a9b4.chunk.css.map": "/portfolio-website/static/css/2.dc76a9b4.chunk.css.map",
+    "static/css/main.c193c649.chunk.css.map": "/portfolio-website/static/css/main.c193c649.chunk.css.map",
+    "static/media/all.min.css": "/portfolio-website/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/get-in-touch.jpg": "/portfolio-website/static/media/get-in-touch.0fc15170.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca2f475b.js",
-    "static/js/2.d2137079.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.e8e0ae3c.chunk.js"
+    "static/css/2.dc76a9b4.chunk.css",
+    "static/js/2.213a859c.chunk.js",
+    "static/css/main.c193c649.chunk.css",
+    "static/js/main.b9b3c68b.chunk.js"
   ]
 }
