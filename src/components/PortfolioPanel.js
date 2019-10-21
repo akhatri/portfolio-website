@@ -4,12 +4,16 @@ import '../styles/portfolio-panel.scss';
 
 const PortfolioPanel = (props) => {
 
-  let { themeClass, name, image, company, description, multipleButtons, links, link, tags } = props.portfolioData;
+  let { themeClass, name, image, imageWebP, company, description, multipleButtons, links, link, tags } = props.portfolioData;
 
   return (
     <div className={`${themeClass} portfolio grid-wrapper col-2 align-center grid-gap-4 my-3`}>
       <div className="media">
-        <img alt={`${company}-image`} className="img-fluid rounded media__image" src={image} />
+        <picture>
+          <source srcset={imageWebP} type="image/webp"/>
+          <source srcset={image} type="image/png"/> 
+          <img className="img-fluid rounded media__image" src={image} alt={`${company}`}/>
+        </picture>
       </div>
       <div className="content">
         <h2 className="content__title">{name}</h2>

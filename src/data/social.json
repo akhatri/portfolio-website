@@ -1,14 +1,17 @@
 [
   {
     "icon": "fab fa-github",
-    "link": "https://github.com/akhatri/"
+    "link": "https://github.com/akhatri/",
+    "title": "Github Account"
   },
   {
     "icon": "fab fa-linkedin-in",
-    "link": "https://www.linkedin.com/in/akshat-k-b113671b/"
+    "link": "https://www.linkedin.com/in/akshat-k-b113671b/",
+    "title": "LinkedIn Account"
   },
   {
     "icon": "fab fa-twitter",
-    "link": "https://twitter.com/i_am_ak_47"
+    "link": "https://twitter.com/i_am_ak_47",
+    "title": "Twitter Account"
   }
 ]
