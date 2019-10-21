@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import ContactImage from '../images/get-in-touch.jpg';
 
+// Libraries
+import Fade from 'react-reveal/Fade';
+
 class Contact extends Component {
 
   constructor() {
@@ -9,6 +12,7 @@ class Contact extends Component {
 
   render() {
     return (
+      <Fade>
       <section id="contact" className="bg-grey">
         <div class="container py-5">
           <div className="grid-wrapper col-2 align-center grid-gap-4">
@@ -21,6 +25,7 @@ class Contact extends Component {
           </div>
         </div>
       </section>
+      </Fade>
     );
   }
 

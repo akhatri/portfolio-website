@@ -7,7 +7,7 @@ const Card = (props) => {
 
   return (
 
-    <div className={`${themeClass} card my-3`}>
+    <div className={`${themeClass} card`}>
       <i className={`fas ${icon} card__icon`}></i>
       <h2 className="card__title">{name}</h2>
       <ul className="card__skills">

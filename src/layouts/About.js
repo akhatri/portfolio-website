@@ -4,6 +4,9 @@ import '../styles/about.scss';
 import socialLinksData from '../data/social';
 import SocialLinks from '../components/SocialLinks';
 
+// Libraries
+import Fade from 'react-reveal/Fade';
+
 
 class About extends Component {
 
@@ -19,6 +22,7 @@ class About extends Component {
   render() {
 
     return (
+      <Fade>
       <section id="about" className="about">
         <div className="container py-5">
           <h1 className="title">Hi there, nice to meet you 👋</h1>
@@ -34,6 +38,7 @@ class About extends Component {
         </div>
 
       </section>
+      </Fade>
     );
   }
 }
