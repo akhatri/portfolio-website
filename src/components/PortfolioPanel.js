@@ -10,8 +10,8 @@ const PortfolioPanel = (props) => {
     <div className={`${themeClass} portfolio grid-wrapper col-2 align-center grid-gap-4 my-3`}>
       <div className="media">
         <picture>
-          <source srcset={imageWebP} type="image/webp"/>
-          <source srcset={image} type="image/png"/> 
+          <source srcSet={imageWebP} type="image/webp"/>
+          <source srcSet={image} type="image/png"/> 
           <img className="img-fluid rounded media__image" src={image} alt={`${company}`}/>
         </picture>
       </div>

@@ -4,9 +4,9 @@ const Footer = () => {
 
   const FooterStyles = {
     'borderTop': '1px solid #bebebe',
-    'background-color': 'whitesmoke',
-    'padding-top': '2rem',
-    'padding-bottom': '2rem'
+    'backgroundColor': 'whitesmoke',
+    'paddingTop': '2rem',
+    'paddingBottom': '2rem'
   }
 
   return (

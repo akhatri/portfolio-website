@@ -14,7 +14,7 @@ class Contact extends Component {
     return (
       <Fade>
       <section id="contact" className="bg-grey">
-        <div class="container py-5">
+        <div className="container py-5">
           <div className="grid-wrapper col-2 align-center grid-gap-4">
             <img className="img-fluid rounded" src={ContactImage} alt="Get in touch" />
             <div>
