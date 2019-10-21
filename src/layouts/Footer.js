@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer style={FooterStyles}>
       <div className="container">
-        <h3 className="text-center">&copy; Copyright { new Date().getFullYear() }</h3>
+        <h3 className="text-center">&copy; { new Date().getFullYear() } Akshat Khatri</h3>
       </div>
     </footer>
   )

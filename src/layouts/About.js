@@ -25,7 +25,7 @@ class About extends Component {
       <Fade>
       <section id="about" className="about">
         <div className="container py-5">
-          <h1 className="title">Hi there, nice to meet you <span aria-label="Emoji wave hand" role="img">👋</span></h1>
+          <h1 className="title">Hi there, nice to meet you <span className="emoji" aria-label="Emoji wave hand" role="img">👋</span></h1>
           <p>I am an experienced people oriented Front End Developer, with a strong focus on User Experience and UI Development. I have 4+ years  commercial front-end development experience in various industries, ranging from fast-paced digital agencies, fin-techs, start-ups, professional governing institutions and various business projects. I specialise in the standard Front-end stack and I constantly up-skill myself on new frameworks and processes through personal pet projects, freelance projects and commerrcial work experience.</p>
           <p>
             I strive to create amazing digital experiences for consumers and I am passionate about building early-stage companies. I believe that having a functional website is only a part of the solution. Principles such as Progressive Enhancement, SEO optimised websites with Semantic HTML and Accessibility principles are key concepts on being noticed in the Internet 'jungle'.
