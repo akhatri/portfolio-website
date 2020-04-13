@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.scss';
 
 import Header from './layouts/Header';
@@ -32,6 +32,50 @@ function App() {
 
 
   // });
+
+  useEffect(()=>{
+
+    console.log('useEffect hook')
+
+  }, [])
+
+  function intersectionObservor() {
+
+    // this is the target which is observed
+    var target = document.querySelector('#services');
+
+    // configure the intersection observer instance
+    var intersectionObserverOptions = {
+      root: null,
+      rootMargin: '150px',
+      threshold: 1.0
+    }
+
+    var observer = new IntersectionObserver(onIntersection, intersectionObserverOptions);
+
+    // provide the observer with a target
+    observer.observe(target);
+
+    function onIntersection(entries) {
+      entries.forEach(entry => {
+        console.clear();
+        console.log(entry.intersectionRatio)
+        target.classList.toggle('visible', entry.intersectionRatio > 0);
+
+        if (entry.intersectionRatio > 0) {
+          console.log('in the view');
+          target.classList.add('bg-gray-700');
+          target.querySelector('h1').classList.remove('text-gray-700');
+          target.querySelector('h1').classList.add('text-gray-200');
+          observer.unobserve(entry.target);
+        } else {
+          console.log('out of view');
+        }
+
+      });
+    }
+
+  }  
 
   return (
     <div className="App">
