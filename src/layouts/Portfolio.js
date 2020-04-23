@@ -20,7 +20,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="container py-5">
           <h1>Portfolio</h1>
-          <p>Some of my latest work from my previous work experience. My freelance projects are carried out under my sole-trader business, where I occasionally work with other team members on client projects. You can view further details here</p>
+          <p>Some of my latest work from my previous work experience. Freelance projects are carried out under my sole-trader business <a href="https://nimblestudios.dev/">Nimble Studios</a>, where I occasionally work with other team members on client projects.</p>
           <div className="portfolio-panel-container">
             {
               this.state.portfolioData.map((item, index) => {

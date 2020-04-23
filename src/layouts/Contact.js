@@ -19,7 +19,7 @@ class Contact extends Component {
             <div className="grid-wrapper col-2 align-center grid-gap-4">
               <img className="img-fluid rounded" src={ContactImage} alt="Get in touch" />
               <div>
-                <p>If you would like to get in touch regarding any freelance consulting projects and start-up advice on technology roadmaps, please get in touch through my business website here <span aria-label="Emoji smiley" role="img">😄</span></p>
+                <p>If you would like to get in touch regarding any freelance consulting projects and start-up advice on technology roadmaps, please get in touch through my business website <a href="https://nimblestudios.dev/">Nimble Studios</a> <span aria-label="Emoji smiley" role="img">😄</span></p>
               </div>
             </div>
           </div>

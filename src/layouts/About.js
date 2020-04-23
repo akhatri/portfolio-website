@@ -33,7 +33,7 @@ class About extends Component {
           <p>
             Also, as a Front End developer, it's important to think from a consumers point of view as they are the primary audience and the code you produce is their first point of interation so it needs to leave a good impression :)
         </p>
-          <p>You can view my skills and some examples of my work. If you need to get in touch in regard to project or consulting work, please get in touch</p>
+          <p>You can view my skills and some examples of my work. If you need to get in touch for project or consulting work, please get in touch through my freelance business website <a href="https://nimblestudios.dev/">Nimble Studios</a></p>
           <SocialLinks socialData={this.state.socialLinksData} />
         </div>
 
