@@ -25,8 +25,8 @@ class Skills extends Component {
           <div className="container py-5">
             <h1>Skills</h1>
             <div className="mb-4">
-              <p>As the front-end landscape constantly evolves at breakneck speed it's important for any developer to keep up with the latest trends and languages. I've started to focus on ES6+, React.js and Vue.js and I'm slowly moving away from jQuery in favour of vanilla javascript as most of jQuery's capabilities are now possible with ES6</p>
-              <p>On the back-end side of things, I have a fair understanding of the listed back-end technologies and who knows I might one day become a full-stack Unicorn :)</p>
+              <p>As the front-end landscape constantly evolves at breakneck speed it's important for any developer to keep up with the latest trends and technologies. I've started to focus on ES6+, React.js and Vue.js and I'm slowly moving away from jQuery in favour of vanilla javascript as most of jQuery's capabilities are now possible with ES6</p>
+              <p>On the back-end side of things, I have a fair understanding of the listed back-end technologies that complement my core skills in front-end development</p>
               <p>Although I have a good knowledge of Angular 1, LESS, SVN, Compass and Bower - I have moved on from these technologies to market trends</p>
               <p>Below are my various skills with competency levels marked for certain technologies</p>
             </div>

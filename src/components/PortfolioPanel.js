@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const PortfolioPanel = (props) => {
 
-  let { themeClass, name, image, imageWebP, company, description, multipleButtons, links, link, tags } = props.portfolioData;
+  let { themeClass, name, image, imageWebP, company, html, link, tags } = props.data;
 
   return (
     <Fade>
@@ -21,12 +21,10 @@ const PortfolioPanel = (props) => {
         <div className="content">
           <h2 className="content__title">{name}</h2>
           <h3 className="content__company">{company}</h3>
-          <p className="content__info">{description}</p>
+          <div className="content__info" dangerouslySetInnerHTML={{ __html: html }}></div>
           {
-            multipleButtons ? links.map((button, index) =>
-              <a className={`content__cta ${button.class}`} key={index} href={button.link} target="_blank" rel="noreferrer noopener">View Work</a>
-            ) :
-              <a className="content__cta" href={link} target="_blank" rel="noreferrer noopener">View Work</a>
+
+            link && (<a className="content__cta" href={link} target="_blank" rel="noreferrer noopener">View Work</a>)
           }
           <ul className="content__tags">
             {
