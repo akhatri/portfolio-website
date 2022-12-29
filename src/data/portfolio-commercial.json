@@ -1,8 +1,8 @@
 [
   {
     "themeClass": "natural-history-museum reverse",
-    "image": "./portfolio-website/nhm-banner.png",
-    "imageWebP": "./portfolio-website/nhm-banner.webp",
+    "image": "./nhm-banner.png",
+    "imageWebP": "./nhm-banner.webp",
     "name": "Digital Media & Development",
     "company": "Natural History Musuem London",
     "html": "<p>The Natural History Musuem is one of the world's premier research institutions in natural history and holds collections of more than 80 million specimens and collections. As one of the most visited tourist attractions in the world, the online presence has grown substantially, with over 100k monthly visits across the website</p> <p>I've been working on various meaningful projects as part of various product teams, working closely with the product managers, front-end/back-end developers, digital and UX designers and the content team. Work includes new features and performance improvements to the website built on the AEM platform as well as project based work such as micro-sites and web apps for the musuem's various business functions. The musuem is currently transitioning towards a headless/API driven approach with our first successful delivery being the famous Wildlife Photographer of the Year micro-site built in React.js</p>",
@@ -18,8 +18,8 @@
   },  
   {
     "themeClass": "australian-institute-architects",
-    "image": "./portfolio-website/australian-institute-architects.png",
-    "imageWebP": "./portfolio-website/australian-institute-architects.webp",
+    "image": "./australian-institute-architects.png",
+    "imageWebP": "./australian-institute-architects.webp",
     "name": "Website Re-platform & Rebuild",
     "company": "Australian Institute of Architects",
     "html": "<p>I was part of the Digital transformation team working with both internal and external stakeholders on a 6-month website re-design project onto the Wordpress platform. An exciting role with a good mix of technical project management and hands-on development and in ensuring the Website was built upto high standards and within time</p>",
@@ -41,8 +41,8 @@
   },
   {
     "themeClass": "firststep reverse",
-    "image": "./portfolio-website/firststep-banner.png",
-    "imageWebP": "./portfolio-website/firststep-banner.webp",
+    "image": "./firststep-banner.png",
+    "imageWebP": "./firststep-banner.webp",
     "name": "Mobile Apps, Web Portals",
     "company": "FirstStep",
     "html": "<p>I started working full-time for my company from mid 2017 where my main responsibilities were building the front-end for our mobile apps and website portals, along with my technical co-founder. Most of my time was spent on building the front-end of our hybrid mobile apps with the Ionic framework using best practices in ES6 and Typescript. Other tasks were building our website in Gatsby.js - a React based static site generator and simple UI components for our internal fund administration portal in React</p>",
@@ -65,8 +65,8 @@
   }, 
   {
     "themeClass": "ie-digital-apt-tm",
-    "image": "./portfolio-website/apt-tm-banner.png",
-    "imageWebP": "./portfolio-website/apt-tm-banner.webp",
+    "image": "./apt-tm-banner.png",
+    "imageWebP": "./apt-tm-banner.webp",
     "name": "APTouring and Travel Marvel",
     "company": "IE Company",
     "html": "<p>Most of time at IE was spent within the Sitecore teams where I was a part of an 18-month responsive build of both the APTouring and Travel Marvel websites. The projects were interesting in terms of scalability and re-use of components for both these websites. I was part of a large cross-functional team of 10+ including PMs, Back-end and Front-end devs, Business Analysts, UX/Graphic Designers, Scrum Masters, Testers and on-site clients, incorporating the best practices in Agile project delivery</p>",
@@ -95,8 +95,8 @@
   },
   {
     "themeClass": "ie-digital-movember reverse",
-    "image": "./portfolio-website/movember.png",
-    "imageWebP": "./portfolio-website/movember.webp",
+    "image": "./movember.png",
+    "imageWebP": "./movember.webp",
     "name": "Movember Responsive Build",
     "company": "IE Company",
     "html": "<p>One of my first roles as a commercial front-end dev in a large project was very rewarding in terms of skills-development and learning through the best practices in front-end development. Being a non-profit client, it had a good social responsibility motive as well. I was part of a large cross-functional team of 10+ including PMs, Back-end and Front-end devs, Business Analysts, UX/Graphic Designers, Scrum Masters, Testers and on-site clients, incorporating the best practices in Agile project delivery</p>",
